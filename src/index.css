@@ -4,7 +4,7 @@
 
 @tailwind utilities;
 html{
-  font-family: 'Changa';
+  font-family: "IBM Plex Mono", monospace;
   background-color: #212620;
   color: #f6d4b1;
 }

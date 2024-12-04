@@ -3,23 +3,20 @@ import '../index.css';
 const Main = () => {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen">
-            <header className="w-full py-4">
-                <h1 className="text-center text-3xl font-bold">Mi Portafolio</h1>
-            </header>
-            <main className="flex flex-col items-center justify-center flex-1 w-full px-4">
-                <section className="shadow-md rounded-lg p-6 m-4 w-full max-w-2xl">
-                    <h2 className="text-2xl font-semibold mb-4">Sobre Mí</h2>
-                    <p>
-                        Hola, soy un desarrollador web con experiencia en React y Tailwind CSS.
-                    </p>
-                </section>
-                <section className="shadow-md rounded-lg p-6 m-4 w-full max-w-2xl">
-                    <h2 className="text-2xl font-semibold mb-4">Proyectos</h2>
-                    <p>
-                        Aquí puedes ver algunos de mis proyectos recientes.
-                    </p>
-                </section>
-            </main>
+            <h1 className="text-center text-7xl font-bold mb-40 text-primary-botones">Mi Portafolio</h1>
+            <section className=" rounded-lg p-6 m-4 w-full max-w-2xl bg-primary-botones shadow-[6px_6px_0px] shadow-primary-sombra">
+                <h2 className="text-2xl font-bold mb-4 text-primary-letra">Sobre Mí</h2>
+                <p className='text-primary-letra text-xl font-semibold'>
+                    Hola mi nombre es Eduardo Silva, actualmente soy estudiante de Ingenieria Civil Informatica en la Universidad Autonoma de Chile.
+                </p>
+            </section>
+            <section className="shadow-md rounded-lg p-6 m-4 w-full max-w-2xl">
+                <h2 className="text-2xl font-semibold mb-4">Proyectos</h2>
+                <p>
+                    Aquí puedes ver algunos de mis proyectos recientes.
+                </p>
+            </section>
+                
         </div>
     );
 };
