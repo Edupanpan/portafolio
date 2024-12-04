@@ -5,6 +5,13 @@
 @tailwind utilities;
 html{
   font-family: "IBM Plex Mono", monospace;
-  background-color: #212620;
-  color: #f6d4b1;
+  background-color: #39594D;
+  
+}
+#header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;  /* Asegura que el header se mantenga sobre las secciones */
 }

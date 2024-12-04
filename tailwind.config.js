@@ -8,9 +8,11 @@ export default {
       colors: {
         primary: {
           letra:'#212620',
+          letra2:'#39594D',
           botones:'#F23005',
-          border:'#39594D',
-          sombra:'#39594D'
+          border:'#212620',
+          sombra:'#212620',
+          sombra2:'#A6330A'
         },
       },
     },

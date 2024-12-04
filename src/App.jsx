@@ -1,15 +1,12 @@
-import './App.css'
-import Header from'./components/header.jsx'
-import Main from './components/main.jsx'
+// src/App.jsx
+import React from 'react';
+import FullpageWrapper from './components/fullpage';
+import './index.css';
 
-function App() {
-
+const App = () => {
   return (
-    <>
-      <Header></Header>
-      <Main></Main>
-    </>
-  )
-}
+    <FullpageWrapper />
+  );
+};
 
-export default App
+export default App;

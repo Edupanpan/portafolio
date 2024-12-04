@@ -9,12 +9,12 @@ const Header = () => {
   };
 
   return (
-    <nav className="flex justify-between items-center m-5 text-xl relative">
+    <nav className="fixed top-0 left-0 w-full flex justify-between items-center m-5 text-xl ">
       {/* Botones a la izquierda */}
       <div className="flex items-center z-50">
         <button
           onClick={toggleVisibility}
-          className='mr-4 relative inline-flex items-center w-13 h-10 px-6 py-2 bg-primary-botones text-primary-letra border 
+          className='mr-4 flex items-center justify-center w-13 h-10 px-6 py-2 bg-primary-botones text-primary-letra border 
           border-primary-border shadow-[6px_6px_0px] shadow-primary-sombra transition-all duration-300 cursor-pointer transform hover:scale-105'
         >
           {/* SVG con color dinámico */}
@@ -25,14 +25,14 @@ const Header = () => {
           </svg>
         </button>
 
-        <a href="https://www.linkedin.com/in/eduardo-silva-arellana-4679b133b/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/eduardo-silva-arellana-4679b133b/">
           <button button className='flex items-center justify-center  w-20 h-10 px-6 py-2 bg-primary-botones text-primary-letra border 
           border-primary-border shadow-[6px_6px_0px] shadow-primary-sombra transition-all duration-300 cursor-pointer transform hover:scale-105'>
             <span>IN</span>
           </button>
         </a>
         
-        <a href="https://github.com/Edupanpan" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/Edupanpan">
           <button  className='flex items-center justify-center w-40 h-10 px-6 py-2 bg-primary-botones text-primary-letra border 
           border-primary-border shadow-[6px_6px_0px] shadow-primary-sombra transition-all duration-300 cursor-pointer transform hover:scale-105'>
             <img src={github} className="w-6 h-6" alt="GitHub" />
@@ -41,8 +41,8 @@ const Header = () => {
         </a>
 
       </div>
-      <ul className="flex justify-end items-center z-50">
-        <li className='flex items-center justify-center  w-50 h-10 px-6 py-2 bg-primary-botones text-primary-letra border 
+      <ul className="justify-end items-center z-50">
+        <li className='flex items-center justify-center  w-50 h-10 px-6 py-2 mr-9 bg-primary-botones text-primary-letra border 
           border-primary-border shadow-[6px_6px_0px] shadow-primary-sombra transition-all duration-300 '>Eduardo Silva</li>
       </ul>
 
