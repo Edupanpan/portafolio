@@ -13,17 +13,18 @@ const FullpageWrapper = () => (
     <ReactFullpage
       licenseKey="OPEN-SOURCE-GPLV3-LICENSE"
       navigation
-      sectionsColor={['#282c34', '#ff5f45', '#0798ec']}
+      anchors={['firstSection', 'secondSection', 'thirdSection']}
+      sectionsColor={['#39594D']}
       render={() => {
         return (
           <ReactFullpage.Wrapper>
-            <div className="section">
+            <div className="section" data-menuanchor="firstSection">
               <Presentacion />
             </div>
-            <div className="section">
+            <div className="section" data-menuanchor="secondSection">
               <Conocimientos />
             </div>
-            <div className="section">
+            <div className="section" data-menuanchor="thirdSection">
               <Proyectos />
             </div>
           </ReactFullpage.Wrapper>
